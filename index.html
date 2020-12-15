@@ -1,46 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Commercial</title>
     <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+  </head>
+  <body>
     <div class="main">
-        <div class="main__menu">
+      <div class="main__menu">
         <ul>
-            <li><img src="Pada-logo.png"/></li>
-            <li>About</li>
-            <li>Support</li>
-            <li>Sponcer</li>
-            <li><form>
-                <i class="fas fa-search"></i><input placeholder="search" type="text"/>
-            </form></li>
+          <li><img src="Pada-logo.png" /></li>
+          <li>About</li>
+          <li>Support</li>
+          <li>Sponcer</li>
+          <li>
+            <form>
+              <i class="fas fa-search"></i
+              ><input placeholder="search" type="text" />
+            </form>
+          </li>
         </ul>
-    </div>
-    <div class="main__side-bar">
+      </div>
+
+      <div class="main__side-bar">
         <span>icon</span>
-    </div>
-    <div class="main__main">
+      </div>
+
+      <div class="main__main">
         <div class="main__main-screen">
-           <div class="main__main-content">
-           </div>
-           <div class="main__main-sides">
-               <div></div>
-               <div></div>
-           </div>
+          <div class="main__main-content">
+            <div class="main__main-content__container">
+              <div><img src="images/1.jpg" /></div>
+              <div><img src="images/2.jpg" /></div>
+              <div><img src="images/3.jpg" /></div>
+              <div><img src="images/4.jpg" /></div>
+            </div>
+          </div>
+
+          <div class="main__main-sides">
+            <div class="main__main-sides__top">
+              <div class="main__main-sides__radioes">
+                <input type="radio" name="radio-btn" id="radio1" />
+                <input type="radio" name="radio-btn" id="radio2" />
+                <input type="radio" name="radio-btn" id="radio3" />
+                <input type="radio" name="radio-btn" id="radio4" />
+              </div>
+            </div>
+            <div class="main__main-sides__bottom">
+              <div class="main__main-sides__nav">
+                <label for="radio1" class="nav-btn"></label>
+                <label for="radio2" class="nav-btn"></label>
+                <label for="radio3" class="nav-btn"></label>
+                <label for="radio4" class="nav-btn"></label>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
-
-    </main>
-
-    
     <script
-    src="https://kit.fontawesome.com/a98b8ff89f.js"
-    crossorigin="anonymous"
-  ></script>
+      src="https://kit.fontawesome.com/a98b8ff89f.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="app.js"></script>
-</body>
+    <script src="slide.js"></script>
+  </body>
 </html>
