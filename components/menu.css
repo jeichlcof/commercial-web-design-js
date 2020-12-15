@@ -1,0 +1,37 @@
+.main__menu ul li img {
+  width: 120px;
+  height: 110px;
+  cursor: pointer;
+}
+.main__menu ul li img:hover {
+  opacity: 0.7;
+}
+
+.main__menu {
+  margin-top: left;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 74px;
+}
+.main__menu ul {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.main__menu ul li {
+  margin-left: 50px;
+}
+
+.main__menu ul li form {
+  display: flex;
+}
+.main__menu ul li form input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid rgb(102, 102, 102);
+}
+.main__menu ul li form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}

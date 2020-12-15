@@ -1,0 +1,14 @@
+@import "reset.css";
+
+/* components */
+@import "components/menu.css";
+@import "components/side-bar.css";
+@import "components/main-contents.css";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin-right: 64px;
+  background-color: #ececec;
+}
