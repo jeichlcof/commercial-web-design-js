@@ -14,6 +14,7 @@
   margin-bottom: 74px;
 }
 .main__menu ul {
+  position: relative;
   width: 70%;
   display: flex;
   align-items: center;
@@ -24,14 +25,39 @@
   margin-left: 50px;
 }
 
+.main__menu ul li:nth-child(2),
+.main__menu ul li:nth-child(3),
+.main__menu ul li:nth-child(4) {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 16px;
+  font-weight: 600;
+}
 .main__menu ul li form {
   display: flex;
 }
 .main__menu ul li form input {
-  border: none;
   background-color: transparent;
-  border-bottom: 2px solid rgb(102, 102, 102);
+  border: none;
+  width: 80%;
+  height: 30px;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.9);
 }
+
 .main__menu ul li form input::placeholder {
   color: rgba(0, 0, 0, 0.4);
+}
+.main__menu ul li form {
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+.main__menu ul li form i {
+  margin-left: 5px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.main__menu ul li:last-child {
+  position: absolute;
+  right: 5%;
 }

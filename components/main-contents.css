@@ -42,15 +42,16 @@
 .main__main-sides__top {
   height: 30%;
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.4);
 }
 .main__main-sides__bottom {
-  border: 1px solid black;
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.4);
   height: 70%;
   width: 100%;
 }
 
-.main__main-sides__radioes input {
+.main__main-sides__radioes {
   display: none;
 }
 .main__main-sides__nav {
@@ -60,6 +61,27 @@
   flex-direction: column;
 }
 .main__main-sides__bottom .nav-btn {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.nav-btn:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+.main__main-sides__bottom__auto-btn {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.main__main-sides__bottom__auto-btn div {
   border: 1px solid rgba(0, 0, 0, 0.4);
   width: 10px;
   height: 10px;

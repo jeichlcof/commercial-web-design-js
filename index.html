@@ -16,22 +16,25 @@
           <li>Sponcer</li>
           <li>
             <form>
-              <i class="fas fa-search"></i
-              ><input placeholder="search" type="text" />
+              <input placeholder="Search" type="text" />
+              <i class="fas fa-search"></i>
             </form>
           </li>
         </ul>
       </div>
 
       <div class="main__side-bar">
-        <span>icon</span>
+        <div class="main__side-bar__icon">
+          <div class="main__side-bar__icon__burger"></div>
+        </div>
+        <span><i class="fas fa-shopping-cart fa-2x"></i></span>
       </div>
 
       <div class="main__main">
         <div class="main__main-screen">
           <div class="main__main-content">
             <div class="main__main-content__container">
-              <div><img src="images/1.jpg" /></div>
+              <div><img src="images/1.jpg" class="first" /></div>
               <div><img src="images/2.jpg" /></div>
               <div><img src="images/3.jpg" /></div>
               <div><img src="images/4.jpg" /></div>
@@ -48,6 +51,12 @@
               </div>
             </div>
             <div class="main__main-sides__bottom">
+              <div class="main__main-sides__bottom__auto-btn">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+              </div>
               <div class="main__main-sides__nav">
                 <label for="radio1" class="nav-btn"></label>
                 <label for="radio2" class="nav-btn"></label>
@@ -55,6 +64,20 @@
                 <label for="radio4" class="nav-btn"></label>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="visible-menu" class="main__visible-menu">
+        <div class="main__visible-menu__container">
+          <div class="main__visible-menu__container__img">
+            <img src="menu-images/menu-img1.jpg" />
+          </div>
+          <div class="main__visible-menu__container__img">
+            <img src="menu-images/menu-img2.jpg" />
+          </div>
+          <div class="main__visible-menu__container__img">
+            <img src="menu-images/menu-img3.jpg" />
           </div>
         </div>
       </div>
@@ -66,5 +89,7 @@
     ></script>
     <script src="app.js"></script>
     <script src="slide.js"></script>
+    <script src="visible-menu.js"></script>
+    <script src="side-bar-icon.js"></script>
   </body>
 </html>
