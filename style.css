@@ -5,6 +5,7 @@
 @import "components/side-bar.css";
 @import "components/main-contents.css";
 @import "components/visible-menu.css";
+@import "components/serve-content.css";
 
 * {
   box-sizing: border-box;
@@ -12,6 +13,7 @@
 body {
   background-color: #ececec;
   font-family: sans-serif;
+  height: 200vh;
 }
 main {
   position: relative;

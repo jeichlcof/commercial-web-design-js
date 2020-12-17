@@ -7,7 +7,7 @@
   visibility: hidden;
   z-index: 2;
   opacity: 0;
-  transition: all 1s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 .main__visible-menu {
   display: flex;

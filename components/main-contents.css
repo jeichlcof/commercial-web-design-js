@@ -4,7 +4,7 @@
 }
 .main__main-screen {
   width: 70%;
-  height: 1000px;
+
   background-color: white;
   display: flex;
 }
@@ -19,6 +19,7 @@
   width: 35%;
   height: 500px;
   border: 1px solid rgba(0, 0, 0, 0.4);
+  border-left: none;
 }
 .main__main-content__container {
   height: 500px;
@@ -42,11 +43,11 @@
 .main__main-sides__top {
   height: 30%;
   width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 }
 .main__main-sides__bottom {
   position: relative;
-  border: 1px solid rgba(0, 0, 0, 0.4);
+
   height: 70%;
   width: 100%;
 }
