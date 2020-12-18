@@ -3,8 +3,8 @@ let windowHeight;
 let length;
 
 function init() {
-  let animContent = document.getElementsByClassName(".hidden");
-  let windowHeight = window.innerHeight;
+  animContent = document.getElementsByClassName("hidden");
+  windowHeight = window.innerHeight;
   length = animContent.length;
   eventHandlers();
   console.log(animContent, animContent.length);
@@ -18,12 +18,12 @@ function eventHandlers() {
 function _checkPosition() {
   for (let i = 0; i < length; i++) {
     let posFromTop = animContent[i].getBoundingClientRect().top;
-    console.log(posFromTop);
     if (posFromTop - windowHeight <= 0) {
-      animContent[i].className = animContent[i].className.replace(
-        "hidden",
-        "fade-in"
-      );
+      animContent[i].classList.add("active");
+      //animContent[i].className = animContent[i].className.replace(
+      //  "hidden",
+      //  "fade-in"
+      //);
     }
   }
 }
