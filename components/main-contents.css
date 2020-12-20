@@ -4,7 +4,7 @@
 }
 .main__main-screen {
   width: 70%;
-
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   background-color: white;
   display: flex;
 }
@@ -12,13 +12,13 @@
 .main__main-content {
   width: 65%;
   height: 500px;
-  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
 .main__main-sides {
   width: 35%;
   height: 500px;
-  border: 1px solid rgba(0, 0, 0, 0.4);
+
   border-left: none;
 }
 .main__main-content__container {
@@ -43,7 +43,7 @@
 .main__main-sides__top {
   height: 30%;
   width: 100%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 .main__main-sides__bottom {
   position: relative;

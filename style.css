@@ -6,14 +6,15 @@
 @import "components/main-contents.css";
 @import "components/visible-menu.css";
 @import "components/serve-content.css";
-
+@import "components/contact-box.css";
+@import "components/footer.css";
 * {
   box-sizing: border-box;
 }
 body {
   background-color: #ececec;
   font-family: sans-serif;
-  height: 200vh;
+  height: 300vh;
 }
 main {
   position: relative;

@@ -18,11 +18,12 @@
 .main__serve-content__bg {
   position: absolute;
   width: 70%;
-  height: 400px;
-  background-color: white;
+  height: 750px;
+  background-color: rgb(254, 254, 254);
   z-index: -2;
   top: 170px;
-  border: 1px solid rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
 }
 .main__serve-content > h1 {
   color: rgba(0, 0, 0, 0.7);
@@ -56,14 +57,24 @@
   margin-left: 100px;
   width: 40%;
 }
+
+.main__serve-content__img__contain2__text-box {
+  display: flex;
+  flex-direction: column;
+  margin-right: 17%;
+  width: 40%;
+  padding: 0 50px;
+}
+
+.main__serve-content__img__contain2__text-box h1,
 .main__serve-content__img__contain1__text-box h1 {
   font-size: 30px;
   font-weight: 600px;
   margin-bottom: 30px;
 }
+.main__serve-content__img__contain2__text-box span,
 .main__serve-content__img__contain1__text-box span {
   display: block;
-
   font-size: 18px;
   display: flex;
   justify-content: center;
@@ -78,12 +89,11 @@
 .main__serve-content__img__contain2 {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   margin-top: 110px;
+  align-items: center;
 }
-.main__serve-content__img__contain2 div img {
-  margin-right: 120px;
-}
+
 .hidden {
   opacity: 0;
 }
